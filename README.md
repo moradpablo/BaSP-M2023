@@ -16,13 +16,14 @@ Weeks Progression
 
 
 ## Week 02
--Started working with HTML, GIT and GitHub.
--Created a folder with all the necessary files (README.md/ assets and index.html)
--Created a repository on GitHub and linked it with git
--Started to work on the project 
--Started to edit index.html with Visual Studio Code and GIT (adding images, text, etc)
--Once the html is finished and with all the changes saved. I pushed it to github
--I started to create this README.md
--Once all the changes are saved I send everything to github
--I tried to help my coworkers with what they needed
--Finally I did the quiz and handed in the work
+- Started working with HTML, GIT and GitHub.
+- Created a folder with all the necessary files (README.md/ assets and index.html)
+- Created a repository on GitHub and linked it with git
+- Started to work on the project 
+- Started to edit index.html with Visual Studio Code and GIT (adding images, text, etc)
+- Once the html is finished and with all the changes saved. I pushed it to github
+- I started to create this README.md
+- Once all the changes are saved I send everything to github
+- I tried to help my coworkers with what they needed
+- Finally I did the quiz and handed in the work
+  
