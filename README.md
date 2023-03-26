@@ -27,3 +27,6 @@ Weeks Progression
 - I tried to help my coworkers with what they needed
 - Finally I did the quiz and handed in the work
   
+
+## Author
+## _Pablo Morad_
