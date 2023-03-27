@@ -52,7 +52,8 @@ Weeks Progression
 - Once the html is finished and with all the changes saved. We should push it to our github repository
 - For last we edited our readme detailing what we did step by step
   
- > Note:[Examples of README](https://www.makeareadme.com/)(https://dillinger.io/)
+ > Note:[Examples of README 1](https://www.makeareadme.com/)
+ > Note:[Examples of README 2](https://dillinger.io/)
 
 - Make sure that everything works correctly and save all the changes.
 - Example of my [work](https://github.com/moradpablo/BaSP-M2023)
@@ -61,4 +62,4 @@ Weeks Progression
   
 
 ## Author
-## _Pablo Morad_
+## _Pablo Morad_ 
