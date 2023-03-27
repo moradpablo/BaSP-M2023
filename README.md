@@ -3,7 +3,7 @@
 Weeks Progression
 ```
 
-## Week 01 **FIGMA**
+## Week 01 **FIGMA** :pushpin:
 - Started working with [Figma](https://www.figma.com/)
 - we have to sign up with an email and password
 - The first step once logged in is to create a New Designe File in the upper left options
@@ -25,7 +25,7 @@ Weeks Progression
 - Finally do the quiz and handed in the work
 
 
-## Week 02 **HTML**
+## Week 02 **HTML** :pushpin:
 - Started working with HTML, GIT and GitHub.
 - First Step is dowload the apps we are going to need 
   > Note:[Git](https://git-scm.com/downloads) ``Choose your operating system and press "Click here to download"``
