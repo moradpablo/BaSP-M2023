@@ -5,7 +5,7 @@ Weeks Progression
 
 ## Week 01 **FIGMA** :pushpin:
 - Started working with [Figma](https://www.figma.com/) :speech_balloon:
-- we have to sign up with an email and password
+- We have to sign up with an email and password
 - The first step once logged in is to create a New Designe File in the upper left options
 - Then create a Slime(Letter S)
 - Inside the Slime create all the Frames(Letter A) needed
