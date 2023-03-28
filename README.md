@@ -6,6 +6,7 @@ Weeks Progression
 ## Week 01 **FIGMA** :pushpin:
 - Started working with [Figma](https://www.figma.com/) :speech_balloon:
 - We have to sign up with an email and password
+- My project consisted of creating a screenflow for a GYM
 - The first step once logged in is to create a New Designe File in the upper left options
 - Then create a Slime(Letter S)
 - Inside the Slime create all the Frames(Letter A) needed
@@ -27,6 +28,7 @@ Weeks Progression
 
 ## Week 02 **HTML** :pushpin:
 - Started working with HTML, GIT and GitHub.
+- My project consisted of creating the landing page in HTML for the GYM we worked with figma before
 - First Step is dowload the apps we are going to need 
   > Note:[Git](https://git-scm.com/downloads) ``Choose your operating system and press "Click here to download"`` :speech_balloon:
 
