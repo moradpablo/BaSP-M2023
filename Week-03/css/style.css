@@ -18,7 +18,6 @@ header h1{
 h2 span{
     color: #616280;
 }
-
 header img{
     top: 20px;
     right: 30px;
@@ -139,7 +138,6 @@ aside li a{
     display: inline-block;
     top: 100px;
 }
-
 .box-1 h3{
     font-size: 30px;
     color: #2F3058;   
@@ -165,7 +163,6 @@ aside li a{
     left: 300px;
     top: 100px;
 }
-
 .img-box1{
     position:relative;
     left: 100px;
@@ -441,4 +438,22 @@ aside li a{
     left: 20px;
     color: #373867;
     font-size: 18px;
+}
+footer{
+    background-color: #2C2C3A;
+    height: 105px;
+}
+footer p {
+    position: relative;
+    color: #49A37B;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 43px;
+    top: 24px;
+}
+footer img {
+    position: relative;
+    padding-left: 21px;
+    left: 872px;
+    bottom: 45px;
 }
