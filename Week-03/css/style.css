@@ -3,14 +3,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-header{
-    height: 100px;
-    background-color: #373867 ;
+main {
+    padding-top: 113px;
 }
-header h1{
+header {
+    position: fixed;
+    width: 1744px;
+    height: 100px;
+    margin-left: 176px;
+    z-index: 1;
+    background-color: #373867;
+}
+header h1 {
     position: relative;
     display: inline-block;
-    left: 317px;
+    left: 152px;
     top: 5px;
     color: #46A37C;
     font-size: 50px;
@@ -18,17 +25,17 @@ header h1{
 h2 span{
     color: #616280;
 }
-header img{
+header img {
     position: relative;
     width: 60px;
     top: 20px;
-    right: 30px;
+    right: 200px;
 }
 .icon-menu {
     position: relative;
     width: 35px;
     top: 6px;
-    right: 137px;
+    right: 316px;
 }
 .container-menu{
     position: fixed;
