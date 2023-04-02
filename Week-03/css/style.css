@@ -4,50 +4,50 @@ body {
     font-size: 16px;
 }
 header{
-    background-color: #373867 ;
     height: 100px;
+    background-color: #373867 ;
 }
 header h1{
-    color: #46A37C;
+    position: relative;
     display: inline-block;
     left: 317px;
     top: 5px;
-    position: relative;
+    color: #46A37C;
     font-size: 50px;
 }
 h2 span{
     color: #616280;
 }
 header img{
-    top: 20px;
-    right: 30px;
     position: relative;
     width: 60px;
+    top: 20px;
+    right: 30px;
 }
 .icon-menu {
-    top: 6px;
-    right: 137px;
     position: relative;
     width: 35px;
+    top: 6px;
+    right: 137px;
 }
 .container-menu{
-    background-color:#373867 ;
+    position: fixed;
     height: 100%;
     width: 220px;
-    position: fixed;
     top: 0;
     left: 0;
     padding-top: 50px;
+    background-color:#373867 ;
 }
 .container-menu h2{
-    font-size: 20px;
-    color: #46A37C;
+    position: relative;
     display: inline-block;
-    text-align: center;
     padding: 15px;
     left: 35px;
     top: 20px;
-    position: relative
+    color: #46A37C;
+    font-size: 20px;
+    text-align: center;
 }
 aside img {
     position: relative;
@@ -55,12 +55,12 @@ aside img {
 }
 .vector {
     position: relative;
+    position: relative;
     left: 10px;
-    bottom: 2px;
 }
 .message {
+    bottom: 2px;
     right: 31px;
-    position: relative;
     bottom: 45px;
 }
 .cel {
@@ -75,12 +75,12 @@ aside img {
 }
 aside li{
     display: block;
+    width: 140px;
     padding: 25px 0px 20px 0px;
     color: #C4C4C4;
     border-bottom: 5px solid;
     border-bottom-width: 1px;
     list-style: none;
-    width: 140px;
 }
 .subcont-contact {
     border-bottom: 0px;
@@ -90,16 +90,16 @@ aside li{
     font-size: 14px;
 }
 aside li a{
-    text-decoration: none;
     color: #C4C4C4;
+    text-decoration: none;
 }
 .contact {
     color: #46A37C;
 }
 .a-git {
-    color: #46A37C;
     position: relative;
     top: 10px;
+    color: #46A37C;
 }
 .li-git{
     width: 80px;
@@ -116,52 +116,52 @@ aside li a{
 .subcont-list {
     position: relative;
     left: 30px;
-    font-size: 25px;
     top: 50px;
+    font-size: 25px;
 }
 .box-2-h3 {
+    position: relative;
+    top: 50px;
+    margin-left: 211px;
     color: #2F3058;
     font-size: 40px;
-    position: relative;
-    margin-left: 211px;
-    top: 50px;
 }
 #main-h2{
+    position: relative;
+    display: inline-block;
     color: #2F3058;
     font-size: 50px;
-    display: inline-block;
-    position: relative;
 }
 .box-1 {
     position: relative;
-    left: 300px;
     display: inline-block;
+    left: 300px;
     top: 100px;
 }
 .box-1 h3{
-    font-size: 30px;
-    color: #2F3058;   
     padding-top: 30px;
+    color: #2F3058;   
+    font-size: 30px;
 }
 .box-1-p {
+    position: relative;
     width: 520px;
     height: 400px;
-    position: relative;
     padding-top: 40px;
 }
 .box-1-p img {
     position: relative;
+    height: 540px;
     bottom: 414px;
     left: 830px;
-    height: 540px;
     padding-left: 200px;
 }
 .box-1-p p {
-    font-size: 20px;
-    text-indent: 15px;
     position: relative;
     left: 300px;
     top: 100px;
+    font-size: 20px;
+    text-indent: 15px;
 }
 .img-box1{
     position:relative;
@@ -169,14 +169,14 @@ aside li a{
     top: 10px;
 }
 .box-2 {
-    margin: 100px 0px 100px;
-    top: 50px;
     position: relative;
     display: inline-block;
+    top: 50px;
+    margin: 100px 0px 100px;
 }
 .box-2 section {
-    left: 100px;
     position: relative;
+    left: 100px;
 }
 .box-2 article {
     position: relative;
@@ -187,19 +187,19 @@ aside li a{
     padding: 40px 50px 90px 30px;
 }
 .box-2 h4{
-    color: #373867;
-    font-size: 30px;
     position: relative;
     left: 169px;
     top: 62px;
+    color: #373867;
+    font-size: 30px;
 }
 .box-2 p{
-    text-decoration: none;
-    font-size: 16px;
     position: relative;
+    width: 212px;
     left: 171px;
     bottom: 88px;
-    width: 212px;
+    font-size: 16px;
+    text-decoration: none;
 }
 .logo-as{
     position: relative;
@@ -219,30 +219,30 @@ aside li a{
 }
 .box-3 form {
     position: relative;
-    margin-left: 300px;
     height: 450px;
     top: 90px;
+    margin-left: 300px;
     margin-top: 60px;
 }
 .box-3-h3{
+    position: relative;
+    top: 50px;
+    margin-left: 293px;
     color: #2F3058;
     font-size: 40px;
-    position: relative;
-    margin-left: 293px;
-    top: 50px;
 }
 .box-3 label{
-        font-size: 30px;
-        color: #373867;
+    color: #373867;
+    font-size: 30px;
 }
 .box-3 input {
     position: relative;
+    height: 30px;
+    width: 571px;
     top: 30px;
     right: 83px;
-    width: 571px;
     border: 1px solid #373867;
     border-radius: 5px;
-    height: 30px;
 }
 .box-3 input:nth-child(4) {
     position: relative;
@@ -291,76 +291,76 @@ aside li a{
     top: 75px;
 }
 .box-3 button {
-    height: 32px;
     position: relative;
+    height: 32px;
+    width: 178px;
     right: 487px;
     top: 228px;
-    width: 178px;
     color: #373867;
     border: 1px solid #373867;
     border-radius: 5px;
 }
 .box-3 input:nth-child(8) {
     position: relative;
+    width: 1300px;
+    height: 100px;
     top: 150px;
     right: 124px;
-    height: 100px;
-    width: 1300px;
     text-align: left;
     border-radius: 5px;
 }
 .box-3 button:nth-child(9) {
-    background-color: #373867;
-    color: #fff;
     position: relative;
     right: 495px;
+    background-color: #373867;
+    color: #fff;
 }
 .box-3 button:nth-child(10) {
-    margin-left: 400px;
-    color: #fff;
     position: relative;
     left: 733px;
     top: 160px;
+    margin-left: 400px;
+    color: #fff;
     color: #373867;
 }
 .box-4 {
     position: relative;
     display: inline-block;
+    height: 1100px;
     padding-left: 300px;
     top: 300px;
-    height: 1100px;
+    color: #373867;
 }
 .box-4 h3{
-    color: #373867;
+    padding-top: 50px;
     font-size: 40px;
-    padding-top: 50px
 }
 .box-4 article {
+    display: inline-block;
     padding-top: 30px;
     padding-right: 270px;
-    display: inline-block;
 }
 .box-4 article p {
+    height: 100px;
     padding-top: 30px;
     font-size: 25px;
-    height: 100px;
 }
 .box-4-img1 {
     position: relative;
+    width: 494px;
     left: 785px;
     bottom: 138px;
-    width: 494px;
 }
 .box-4-img2 {
     position: relative;
-    bottom: 921px;
     width: 345px;
+    bottom: 921px;
 }
 .box-4-p2 {
     position: relative;
-    padding-left: 374px;
-    right: 20px;
     top: 20px;
+    right: 20px;
+    padding-left: 374px;
 }
 .box-4-p3 {
     position: relative;
@@ -372,14 +372,14 @@ aside li a{
     bottom: 403px;
 }
 .box-4-p4 {
-    width: 740px;
     position: relative;
+    width: 740px;
     bottom: 417px;
 }
 .box-5 {
     position: relative;
-    padding-left: 300px;
     bottom: 215px;
+    padding-left: 300px;
 }
 .box-5 h3 {
     color: #373867;
@@ -390,70 +390,70 @@ aside li a{
     width: 740px;
 }
 .box-5 h4 {
-    font-size: 35px;
-    color: #373867;
     position: relative;
-    padding-top: 30px;
     bottom: 15px;
+    padding-top: 30px;
+    color: #373867;
+    font-size: 35px;
 }
 .box-5-art1 {
     position: relative;
-    border: 2px solid #49A37B;
-    width: 480px;
     height: 200px;
-    padding: 0px 30px 0px 30px;
+    width: 480px;
     top: 40px;
+    padding: 0px 30px 0px 30px;
+    border: 2px solid #49A37B;
     border-radius: 17px;
 }
 .box-5-art2 {
     position: relative;
-    border: 2px solid #49A37B;
-    width: 480px;
     height: 200px;
-    padding: 0px 30px 0px 30px;
+    width: 480px;
     top: 40px;
+    padding: 0px 30px 0px 30px;
+    border: 2px solid #49A37B;
     border-radius: 17px;
 }
 .box-5-art3 {
     position: relative;
-    border: 2px solid #49A37B;
-    width: 480px;
     height: 200px;
-    padding: 0px 30px 0px 30px;
+    width: 480px;
     top: 132px;
+    padding: 0px 30px 0px 30px;
+    border: 2px solid #49A37B;
     border-radius: 17px;
 }
 .box-5-art4 {
     position: relative;
-    border: 2px solid #49A37B;
-    width: 480px;
     height: 200px;
-    padding: 0px 30px 0px 30px;
+    width: 480px;
     top: 100px;
+    padding: 0px 30px 0px 30px;
+    border: 2px solid #49A37B;
     border-radius: 17px;
 }
 .box-5 li {
     position: relative;
-    padding-top: 9px;
     left: 20px;
+    padding-top: 9px;
     color: #373867;
     font-size: 18px;
 }
 footer{
-    background-color: #2C2C3A;
     height: 105px;
+    background-color: #2C2C3A;
 }
 footer p {
     position: relative;
+    top: 24px;
+    padding-top: 43px;
     color: #49A37B;
     font-size: 18px;
     text-align: center;
-    padding-top: 43px;
-    top: 24px;
 }
 footer img {
     position: relative;
-    padding-left: 21px;
-    left: 872px;
     bottom: 45px;
+    left: 872px;
+    padding-left: 21px;
 }
