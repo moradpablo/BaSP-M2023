@@ -54,14 +54,36 @@ Weeks Progression
 - Once the html is finished and with all the changes saved. We should push it to our github repository
 - For last we edited our readme detailing what we did step by step
   
- > Note:[Examples of README 1](https://www.makeareadme.com/) :speech_balloon:
- > Note:[Examples of README 2](https://dillinger.io/) :speech_balloon:
+  > Note:[Examples of README 1](https://www.makeareadme.com/) :speech_balloon:
+  > Note:[Examples of README 2](https://dillinger.io/) :speech_balloon:
 
 - Make sure that everything works correctly and save all the changes.
 - Example of my [work](https://github.com/moradpablo/BaSP-M2023) :speech_balloon:
 - Try to help your coworkers with what they needed
 - Finally do the quiz and handed in the work
-  
+
+## Week 03 **CSS** :pushpin:
+- Started working with CSS and continued with Git and Github 
+- My project consisted of creating the DESIGN of the landing page in HTML for the GYM with which we worked before 
+- The first step is to learn what [CSS](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics) is and what it is for. :speech_balloon:
+ 
+  >Note:[Tutorial CSS](https://www.youtube.com/watch?v=yfoY53QXEnI&ab_channel=TraversyMedia) :cinema:
+
+- We are going to create a new folder in VisualCode in which we are going to paste our index.html and create a new CSS folder
+- Inside the CSS folder we create two news files (reset.css and style.css)
+- In our index.html and inside ``head`` we have to link the css file  
+ 
+  >Note: ``<link rel="stylesheet" href="css/style.css">``
+
+- From now on to edit all the html we are going to use the style.css file
+ 
+  >Note:[All CSS Codes](https://www.w3schools.com/css/default.asp) :speech_balloon:
+
+- Once the CSS is edited and finished with all the changes saved. We should push it to our github repository.
+- Example of my [Work]:(https://github.com/moradpablo/BaSP-M2023.git) :speech_balloon:
+- For last we edited our readme detailing what we did step by step
+- Always try to help your coworkers with what they needed
+- Finally do the quiz and handed in the work
 
 ## Author
 ## _Pablo Morad_ :registered:

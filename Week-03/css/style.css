@@ -2,6 +2,7 @@ body {
     background-color: #F2F2F2;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    overflow-x: hidden;
 }
 main {
     padding-top: 100px;
@@ -13,31 +14,39 @@ header {
     width: 1744px;
     height: 100px;
     margin-left: 176px;
-    z-index: 1;
     background-color: #373867;
+    z-index: 1;
 }
-header h1 {
+.container-header{
     position: relative;
+    height: 100px;
+    width: 1700px;
+    margin-left: 40px;
+}
+
+header h1 {
+    position: absolute;
     display: inline-block;
-    left: 152px;
-    top: 5px;
+    left: 70px;
+    top: 22px;
     color: #46A37C;
     font-size: 50px;
+    padding-left: 30px;
 }
 h2 span{
     color: #616280;
 }
 header img {
-    position: relative;
+    position: absolute;
     width: 60px;
-    top: 20px;
-    right: 200px;
+    top: 26px;
+    left: 30px;
 }
 .icon-menu {
-    position: relative;
+    position: absolute;
     width: 35px;
-    top: 6px;
-    right: 316px;
+    top: 30px;
+    left: 2px;
 }
 .container-menu{
     position: fixed;
