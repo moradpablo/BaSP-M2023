@@ -4,7 +4,9 @@ body {
     font-size: 16px;
 }
 main {
-    padding-top: 113px;
+    padding-top: 100px;
+    position: relative;
+    padding-left: 220px;
 }
 header {
     position: fixed;
@@ -126,73 +128,85 @@ aside li a{
     top: 50px;
     font-size: 25px;
 }
-.box-2-h3 {
+
+.box-1, .box-2, .box-3, .box-4, .box-5 {
     position: relative;
+    height: 700px;
+    width: 1700px;
+}
+.box-1{
+    height: 640px;
+}
+.box-3{
+    height: 900px;
+}
+.container-box1 {
+    position: absolute;
+    display: inline-block;
     top: 50px;
-    margin-left: 211px;
+    left: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.container-box1 h2{
+    display: inline-block;
+    top: 50px;
+    left: 50px;
+    color: #2F3058;
+    font-size: 60px;;
+}
+.box-1 h3 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #2F3058;
+    font-size: 35px;
+}
+.container-box1 p {
+    left: 300px;
+    top: 100px;
+    width: 677px;
+    font-size: 25px;
+    text-indent: 15px;
+}
+.box-1-img {
+    position: absolute;
+    display: inline-block;
+    height: 585px;
+    top: 50px;
+    right: 20px;
+}
+.box-2 {
+    height: 600px;
+}
+.box-2-h3 {
+    position: absolute;
+    top: 90px;
+    margin-left: 76px;
     color: #2F3058;
     font-size: 40px;
 }
-#main-h2{
-    position: relative;
+.container-box2 {
+    position: absolute;
     display: inline-block;
-    color: #2F3058;
-    font-size: 50px;
-}
-.box-1 {
-    position: relative;
-    display: inline-block;
-    left: 300px;
-    top: 100px;
-}
-.box-1 h3{
-    padding-top: 30px;
-    color: #2F3058;   
-    font-size: 30px;
-}
-.box-1-p {
-    position: relative;
-    width: 520px;
-    height: 400px;
-    padding-top: 40px;
-}
-.box-1-p img {
-    position: relative;
-    height: 540px;
-    bottom: 414px;
-    left: 830px;
-    padding-left: 200px;
-}
-.box-1-p p {
-    position: relative;
-    left: 300px;
-    top: 100px;
-    font-size: 20px;
-    text-indent: 15px;
-}
-.img-box1{
-    position:relative;
-    left: 100px;
-    top: 10px;
-}
-.box-2 {
-    position: relative;
-    display: inline-block;
-    top: 50px;
-    margin: 100px 0px 100px;
 }
 .box-2 section {
     position: relative;
-    left: 100px;
 }
-.box-2 article {
+.box-2-art {
+    width: 1617px;
     position: relative;
     display: inline-block;
-    width: 40%;
-    top: 80px;
-    left: 287px;
-    padding: 40px 50px 90px 30px;
+    padding: 40px 50px 90px 66px;
+    top: 50px;
+    margin-top: 50px;
 }
+.box-2-art3 {
+    top: 40px;
+    position: absolute;
+    right: 50px;
+    width: 650px;
+    padding-right: 58px;   
+    }
 .box-2 h4{
     position: relative;
     left: 169px;
@@ -224,19 +238,28 @@ aside li a{
     position: relative;
     bottom: 6px;
 }
+.container-box3{
+    position: absolute;
+    height: 900px;
+    display: inline-block;
+}
+.box-3 section{
+    position: relative;
+    width: 1700px;
+    height: 900px;
+}
 .box-3 form {
     position: relative;
-    height: 450px;
+    height: 680px;
     top: 90px;
-    margin-left: 300px;
-    margin-top: 60px;
+    margin-left: 80px;
+    margin-top: 95px;
 }
-.box-3-h3{
-    position: relative;
-    top: 50px;
-    margin-left: 293px;
+.box-3-h3 {
+    position: absolute;
     color: #2F3058;
     font-size: 40px;
+    padding-left: 76px;
 }
 .box-3 label{
     color: #373867;
@@ -250,6 +273,9 @@ aside li a{
     right: 83px;
     border: 1px solid #373867;
     border-radius: 5px;
+    padding-left: 46px;
+    margin-left: 3px;
+    margin-top: 25px;
 }
 .box-3 input:nth-child(4) {
     position: relative;
@@ -268,9 +294,10 @@ aside li a{
     right: 79px;
     height: 30px;
 }
-.box-3 ul{
+.box-3 ul {
     position: relative;
-    top: 100px;
+    top: 70px;
+    padding-top: 86px;
 }
 .box-3 ul li{
     font-size: 30px;
@@ -295,98 +322,134 @@ aside li a{
 }
 .box-3-m {
     position: relative;
-    top: 75px;
-}
-.box-3 button {
-    position: relative;
-    height: 32px;
-    width: 178px;
-    right: 487px;
-    top: 228px;
-    color: #373867;
-    border: 1px solid #373867;
-    border-radius: 5px;
+    top: 95px;
 }
 .box-3 input:nth-child(8) {
     position: relative;
-    width: 1300px;
-    height: 100px;
-    top: 150px;
-    right: 124px;
-    text-align: left;
+    width: 1407px;
+    height: 81px;
+    top: 94px;
+    right: 64px;
+    border-radius: 5px;
+    margin-right: 61px;
+    margin-left: 68px;
+}
+.box-3-buttons {
+    position: absolute;
+    right: 80px;
+    bottom: 13px;
+    margin-right: 88px;
+    color: #373867;
+}
+.box3-button1 {
+    margin-right: 40px;
+    height: 40px;
+    background-color: #373867;
+    color: #f4f4f4;
+    border: 1px solid #373867;
     border-radius: 5px;
 }
-.box-3 button:nth-child(9) {
-    position: relative;
-    right: 495px;
-    background-color: #373867;
-    color: #fff;
-}
-.box-3 button:nth-child(10) {
-    position: relative;
-    left: 733px;
-    top: 160px;
-    margin-left: 400px;
-    color: #fff;
+.box3-button2 {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
     color: #373867;
+    border: 1px solid #373867;
 }
 .box-4 {
-    position: relative;
-    display: inline-block;
     height: 1100px;
-    padding-left: 300px;
-    top: 300px;
-    color: #373867;
+}
+.box-4 section {
+    position: relative;
+    height: 1055px;
+    padding-left: 76px;
+}
+.box-4-art1{
+    position: relative;
+}
+.box-4-p1 {
+    position: relative;
+    padding-right: 49px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.box-4-art2{
+    position: relative;
+}
+.box-4-art2 {
+    position: relative;
+    height: 494px;
+}
+.box-4-art3 {
+    position: relative;
+    height: 189px;
 }
 .box-4 h3{
     padding-top: 50px;
+    padding-bottom: 30px;
     font-size: 40px;
-}
-.box-4 article {
-    display: inline-block;
-    padding-top: 30px;
-    padding-right: 270px;
+    color: #373867;
 }
 .box-4 article p {
     height: 100px;
-    padding-top: 30px;
-    font-size: 25px;
+    font-size: 30px;
 }
 .box-4-img1 {
-    position: relative;
-    width: 494px;
-    left: 785px;
-    bottom: 138px;
+    position: absolute;
+    width: 529px;
+    right: 86px;
+    padding-right: 81px;
+    padding-top: 104px;
+    top: 88px;
 }
 .box-4-img2 {
-    position: relative;
+    position: absolute;
     width: 345px;
-    bottom: 921px;
+    bottom: 60px;
 }
 .box-4-p2 {
-    position: relative;
-    top: 20px;
-    right: 20px;
-    padding-left: 374px;
+    position: absolute;
+    top: 69px;
+    left: 90px;
+    width: 956px;
+    height: 89px;
+    margin: 28px 293px;
+    box-sizing: border-box;
 }
 .box-4-p3 {
-    position: relative;
-    width: 400px;
-    padding-left: 360px;
+    position: absolute;
+    width: 480px;
+    bottom: 33px;
+    right: 90px;
+    box-sizing: border-box;
+    margin-right: 655px;
+    padding-right: 3px;
+    margin-bottom: 130px;
 }
-.box-4-h3-3 {
-    position: relative;
-    bottom: 403px;
+.box-4-art3 h3 {
+    position: absolute;
+    bottom: 80px;
+    padding-bottom: 100px;
 }
 .box-4-p4 {
+    position: absolute;
+    width: 907px;
+    top: 30px;
+}
+.container-box5 {
+    position: absolute;
+    display: inline-block;
+    height: 700px;
+}
+.box-5 section{
     position: relative;
-    width: 740px;
-    bottom: 417px;
+    height: 700px;
 }
 .box-5 {
     position: relative;
-    bottom: 215px;
-    padding-left: 300px;
+    padding-left: 76px;
+    width: 1624px;
 }
 .box-5 h3 {
     color: #373867;
@@ -394,7 +457,9 @@ aside li a{
 }
 .box-5 article {
     display: inline-block;
-    width: 740px;
+    width: 544px;
+    height: 204px;
+    position: relative;
 }
 .box-5 h4 {
     position: relative;
@@ -404,37 +469,42 @@ aside li a{
     font-size: 35px;
 }
 .box-5-art1 {
-    position: relative;
+    position: absolute;
     height: 200px;
     width: 480px;
-    top: 40px;
+    top: 58px;
     padding: 0px 30px 0px 30px;
     border: 2px solid #49A37B;
     border-radius: 17px;
 }
 .box-5-art2 {
-    position: relative;
+    position: absolute;
     height: 200px;
     width: 480px;
-    top: 40px;
+    top: 60px;
+    left: 90px;
+    margin-left: 200px;
     padding: 0px 30px 0px 30px;
     border: 2px solid #49A37B;
     border-radius: 17px;
 }
 .box-5-art3 {
-    position: relative;
+    position: absolute;
     height: 200px;
     width: 480px;
-    top: 132px;
+    top: 80px;
+    margin-top: 100px;
     padding: 0px 30px 0px 30px;
     border: 2px solid #49A37B;
     border-radius: 17px;
 }
 .box-5-art4 {
-    position: relative;
+    position: absolute;
     height: 200px;
     width: 480px;
-    top: 100px;
+    top: 69px;
+    margin-left: 289px;
+    margin-top: 112px;
     padding: 0px 30px 0px 30px;
     border: 2px solid #49A37B;
     border-radius: 17px;
@@ -446,9 +516,38 @@ aside li a{
     color: #373867;
     font-size: 18px;
 }
-footer{
+footer {
+    position: relative;
     height: 105px;
     background-color: #2C2C3A;
+    width: 1700px;
+    margin-left: 219px;
+}
+.container-footer {
+    position: absolute;
+    margin: 0px 467px;
+    height: 105px;
+    width: 760px;
+    box-sizing: border-box;
+}
+.footer-ig {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    margin: 0px 369px;
+    box-sizing: border-box;
+}
+.footer-twt {
+    position: absolute;
+    top: 14px;
+    left: 50px;
+    padding: 0px 221px;
+}
+.footer-fc {
+    position: absolute;
+    top: 12px;
+    left: 79px;
+    margin: 0px 330px;
 }
 footer p {
     position: relative;
@@ -457,10 +556,4 @@ footer p {
     color: #49A37B;
     font-size: 18px;
     text-align: center;
-}
-footer img {
-    position: relative;
-    bottom: 45px;
-    left: 872px;
-    padding-left: 21px;
 }
