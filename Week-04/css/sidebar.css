@@ -32,6 +32,23 @@
   border-bottom: 1px #46a37c solid;
   font-size: 16px;
 }
+.contact {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  color: #46a37c;
+  border: none;
+  font-size: 30px;
+}
+
+.contact li {
+  border: none;
+}
+.contact img {
+  width: 10%;
+  height: 10%;
+  align-self: center;
+}
 
 .nav-email {
   display: flex;
