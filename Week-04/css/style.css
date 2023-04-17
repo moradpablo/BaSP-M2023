@@ -1,20 +1,5 @@
 * {
-  font-family: "Roboto", "Arial";
-}
-
-.header-container {
-  display: flex;
-  height: 110px;
-  background-color: #373867;
-}
-
-header {
-  position: fixed;
-  width: 100%;
-}
-
-main {
-  padding-top: 110px;
+  font-family: 'Roboto', 'Arial';
 }
 
 .container-general {
@@ -22,25 +7,10 @@ main {
   flex-direction: column;
 }
 
-main h3 {
-  align-self: baseline;
-  color: #2f3058;
-  font-size: 20px;
-  font-weight: bold;
-}
-
 body {
   display: flex;
 }
-main p {
-  font-size: 14px;
-}
 
-main h4 {
-  color: #373867;
-  font-size: 20px;
-  font-weight: bold;
-}
 label {
   font-size: 14px;
   color: #373867;
@@ -56,7 +26,7 @@ input {
 
 .button1 {
   height: 4vh;
-  width: 13vh;
+  width: 15vh;
   border: 1px solid;
   border-radius: 5px;
   color: #fff;
@@ -68,10 +38,4 @@ input {
   border: 1px solid;
   border-radius: 5px;
   color: #373867;
-}
-
-sidebar {
-  display: none;
-  width: 240px;
-  background-color: #373867;
 }

@@ -89,7 +89,7 @@ Weeks Progression
 - Always try to help your coworkers with what they needed
 - Finally do the quiz and handed in the work
 
-## Week 03 **CSS**(Responsive) :pushpin:
+## Week 04 **CSS**(Responsive) :pushpin:
 
 - Continued working with css but this time we have to make it responsive(mobile,tablet and desktop versions)
 

@@ -1,3 +1,23 @@
+main {
+  padding-top: 110px;
+}
+
+main h3 {
+  align-self: baseline;
+  color: #2f3058;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main p {
+  font-size: 14px;
+}
+
+main h4 {
+  color: #373867;
+  font-size: 20px;
+  font-weight: bold;
+}
 .section-megarocketgym {
   display: flex;
   justify-content: center;
@@ -24,8 +44,8 @@
 
 .megarocket-container img {
   align-self: center;
-  width: 100%;
-  margin-top: 20px;
+  width: 80%;
+  margin: 20px 0 0 30px;
 }
 
 .section-meetus {
@@ -243,12 +263,6 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  sidebar {
-    display: flex;
-    position: fixed;
-    height: 100vh;
-  }
-
   .container-general {
     padding-left: 240px;
   }
@@ -308,7 +322,6 @@
     flex-wrap: wrap;
     width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
   }
 
