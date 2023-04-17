@@ -1,6 +1,6 @@
 console.log(' EXERCISE 1: VARIABLES AND OPERATORS ');
 
-/* a. Crear dos variables numéricas y utilizar el operador suma para guardar el valor de la suma de ambos números
+/* a.Crear dos variables numéricas y utilizar el operador suma para guardar el valor de la suma de ambos números
  en una 3er variable.*/
 
 console.log('Excercise 1.a: ');
