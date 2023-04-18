@@ -114,6 +114,31 @@ Weeks Progression
 - Try to help your coworkers with what they needed
 - Finally do the quiz and handed in the work
 
+## Week 05 **Javascript** :pushpin:
+
+- Started working with Javascript
+
+  > Note:[Basic tutorial Javascript! -1](https://www.youtube.com/playlist?list=PLEfmn-5Ho68TYu8hB4NG4pWUIJpRXA8dm) :cinema:
+  > Note:[Basic tutorial Javascript! -2](https://www.youtube.com/playlist?list=PLEfmn-5Ho68Qg7airyFpWQFP-Abxnvk-y) :cinema:
+  > Note:[Basic tutorial Javascript! -3](https://www.youtube.com/playlist?list=PLEfmn-5Ho68R2r0JyrYD1m9a14ahL_Ywh) :cinema:
+
+- My project in this particular case consisted of solving a series of exercises using Javascript
+- The first step once we see the videos is to create a new folder (in my case Week-05)
+- Then we have to create a new folder call it "exercises" and inside this folder six subfiles with the extention .js
+- Create a new index.html from 0 and just add it to the tag script to link to "exercises"
+
+  > Note: Example :`<script src="exercises/06-functions.js">`
+
+- Started to solve the problem with what I learned in the previous videos
+
+  > Note:[Java script Guide!](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide) :speech_balloon:
+
+- Always remember to commit and push it to GitHub!
+- Example of my [Work]:(https://moradpablo.github.io/BaSP-M2023/Week-05/) :speech_balloon:
+- For last we edited our readme detailing what we did step by step like always
+- Try to help your coworkers with what they needed
+- Finally do the quiz and handed in the work
+
 ## Author
 
 ## _Pablo Morad_ :registered:
