@@ -58,20 +58,20 @@ console.log(newSuma(6.6, 7));
 función probando que todo siga funcionando igual que en el apartado anterior.*/
 
 console.log('Excercise 6.e: ');
-function newFunction(num1, num2) {
-  if (typeof num1 !== 'number' || typeof num2 !== 'number') {
+function newFunction(num) {
+  if (typeof num !== 'number') {
     alert('One of the parameters has an error!');
     return NaN;
   } else {
-    if (!(num1 % 1 === 0) || !(num2 % 1 === 0)) {
+    if (!(num % 1 === 0)) {
       alert('At least one of the numbers is not integer');
-      return Math.round(num1) + Math.round(num2);
+      return Math.round(num);
     } else {
-      return num1 + num2;
+      return num;
     }
   }
 }
-function newFunction2(num1, num2) {
-  return newFunction(num1, num2);
+function newFunction2(num, num2) {
+  return newFunction(num) + newFunction(num2);
 }
 console.log(newFunction2(5, 7.6));
