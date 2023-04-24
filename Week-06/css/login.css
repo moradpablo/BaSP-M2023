@@ -1,0 +1,101 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(142, 150, 156, 0.5);
+}
+
+.login-container h3 {
+  color: #fff;
+  align-self: center;
+  padding-top: 50px;
+  font-size: 2.25rem;
+}
+.forms {
+  width: 60%;
+  align-self: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 80%;
+  justify-content: space-evenly;
+}
+.forms-input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 34px;
+}
+
+.forms-input input {
+  width: 65%;
+}
+
+.login-ul {
+  align-self: center;
+}
+
+.login-ul a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.login-ul li {
+  padding: 10px 0px;
+  font-size: 1.1rem;
+}
+
+input {
+  border: none;
+}
+
+.input-p {
+  color: red;
+  padding-top: 5px;
+}
+
+@media only screen and (max-width: 601px) {
+  .login-container {
+    width: 80%;
+  }
+
+  .forms {
+    width: 80%;
+  }
+
+  .login-form {
+    width: 90%;
+    height: 40.8vh;
+  }
+
+  #login-button,
+  #sign-up-button {
+    height: 3vh;
+  }
+
+  #main-h2 {
+    font-size: 2rem;
+  }
+
+  #main-h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .login-container {
+    width: 85%;
+  }
+  .forms {
+    width: 80%;
+  }
+  .login-form {
+    width: 90%;
+    height: 40.8vh;
+  }
+}
