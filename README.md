@@ -139,6 +139,30 @@ Weeks Progression
 - Try to help your coworkers with what they needed
 - Finally do the quiz and handed in the work
 
+## Week 05 **Javascript DOM** :pushpin:
+
+- Started working with Javascript like the week before and added DOM
+
+  > Note: [What is it DOM?](https://medium.com/jspoint/understanding-basics-of-dom-265b73d958d1) :speech_balloon:
+
+- Once we know what the DOM is, we need to learn how to apply JS to it.
+
+  > Note: [JavaScript DOM (Part 1)](https://www.youtube.com/watch?v=Wd_IxG7lOP8&ab_channel=RadiumRocketLearning) :cinema:
+  > Note: [JavaScript DOM (Part 2)](https://www.youtube.com/watch?v=4srkNwfl6fE&ab_channel=RadiumRocketLearning) :cinema:
+  > Note: [JavaScript DOM (Part 3)](https://www.youtube.com/watch?v=De94msuEok0&ab_channel=RadiumRocketLearning) :cinema:
+  > Note: [JavaScript DOM (Part 4)](https://www.youtube.com/watch?v=3evOx9FG_Jg&ab_channel=RadiumRocketLearning) :cinema:
+
+- Now we can start our project! In my case, I made a login page and a registration page for the GYM we worked on weeks before.
+- As every week we have to create a new folder (in this case "Week-06") and add what is requested (`"login.html/js/css | sign-up.html/js/css"`)
+- Then we have to create a file `"requirements.pdf"` in wich we have to write all the validations for our inputs
+- In VS (VisualCode) we have to create all the styles for the css like we learned before and inside the files ".js" the logic for our page!
+- Always remember to commit and push it to GitHub!
+- Example of my [Work](login):(https://moradpablo.github.io/BaSP-M2023/Week-06/views/login.html) :speech_balloon:
+- Example of my [Work](Sign-up):(https://moradpablo.github.io/BaSP-M2023/Week-06/views/sign-up.html) :speech_balloon:
+- For last we edited our readme detailing what we did step by step like always
+- Try to help your coworkers with what they needed
+- Finally do the quiz and handed in the work
+
 ## Author
 
 ## _Pablo Morad_ :registered:
