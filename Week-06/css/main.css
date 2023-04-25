@@ -83,7 +83,7 @@ a:hover {
   border-bottom: 1px #46a37c solid;
   font-size: 16px;
 }
-.contact {
+.contact-us {
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -95,7 +95,7 @@ a:hover {
 .contact li {
   border: none;
 }
-.contact img {
+.contact-us img {
   width: 10%;
   height: 10%;
   align-self: center;
