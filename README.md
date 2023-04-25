@@ -139,7 +139,7 @@ Weeks Progression
 - Try to help your coworkers with what they needed
 - Finally do the quiz and handed in the work
 
-## Week 05 **Javascript DOM** :pushpin:
+## Week 06 **Javascript DOM** :pushpin:
 
 - Started working with Javascript like the week before and added DOM
 
