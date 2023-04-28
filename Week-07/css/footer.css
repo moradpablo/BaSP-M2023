@@ -1,0 +1,21 @@
+.container-footer {
+  background-color: #2c2c3a;
+  color: #49a37b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 10vh;
+}
+
+.img-footer {
+  align-self: center;
+  justify-content: space-evenly;
+  display: flex;
+  width: 12vh;
+  height: 2.5vh;
+}
+.container-footer p {
+  font-size: 14px;
+  align-self: center;
+  padding-top: 10px;
+}

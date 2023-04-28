@@ -1,0 +1,492 @@
+* {
+  font-family: 'Roboto', 'Arial';
+}
+
+.container-general {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  color: #373867;
+  font-weight: 600;
+}
+
+input {
+  height: 3vh;
+  border: 1px solid #373867;
+  border-radius: 5px;
+  border-color: #373867;
+}
+
+.button1 {
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #373867;
+}
+.button2 {
+  width: 13vh;
+  height: 4vh;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #373867;
+}
+
+aside {
+  display: none;
+  width: 240px;
+  background-color: #373867;
+}
+
+aside a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #2c2c42;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  padding-top: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-menu li {
+  width: 70%;
+  padding: 15px 0;
+  border-bottom: 1px #fff solid;
+  font-size: 30px;
+}
+
+.nav-menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-menu li:nth-child(4) {
+  border: none;
+  color: #46a37c;
+  font-size: 30px;
+}
+
+.nav-menu li:nth-child(5) {
+  padding: 20px 0;
+  color: #46a37c;
+  border-bottom: 1px #46a37c solid;
+  font-size: 16px;
+}
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  color: #46a37c;
+  border: none;
+  font-size: 30px;
+}
+
+.contact li {
+  border: none;
+}
+.contact-us img {
+  width: 10%;
+  height: 10%;
+  align-self: center;
+}
+
+.nav-email {
+  display: flex;
+  padding-top: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.nav-celular,
+.nav-direction {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.nav-email li,
+.nav-celular li,
+.nav-direction li {
+  display: flex;
+  width: 90%;
+  padding-left: 5px;
+  border: none;
+  font-size: 12px;
+}
+
+.nav-email img,
+.nav-celular img,
+.nav-direction img {
+  width: 10%;
+  align-self: center;
+}
+
+main {
+  padding-top: 110px;
+}
+
+main h3 {
+  align-self: baseline;
+  color: #2f3058;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main p {
+  font-size: 14px;
+}
+
+main h4 {
+  color: #373867;
+  font-size: 20px;
+  font-weight: bold;
+}
+.section-megarocketgym {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 85%;
+  padding: 20px;
+}
+
+.section-megarocketgym h2 {
+  font-size: 20px;
+  align-self: center;
+  font-weight: bold;
+  color: #2f3058;
+}
+
+.section-megarocketgym span {
+  color: #616280;
+}
+
+.section-megarocketgym h3 {
+  align-self: center;
+  margin: 20px 0px;
+}
+
+.megarocket-container img {
+  align-self: center;
+  width: 80%;
+  margin: 20px 0 0 30px;
+}
+
+.section-meetus {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 85%;
+  border-top: #d9d9d9 2px solid;
+  border-bottom: #d9d9d9 2px solid;
+}
+
+.section-contact-us,
+.section-about-us,
+.section-gym,
+.section-meetus {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 85%;
+  padding: 20px;
+  border-top: #d9d9d9 2px solid;
+  border-bottom: #d9d9d9 2px solid;
+}
+
+.meet-us {
+  display: flex;
+  margin: 30px 0;
+}
+
+.meet-us-media {
+  width: 30%;
+}
+
+.meet-us-media img {
+  width: 70%;
+}
+
+.meet-us-text {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding-left: 20px;
+}
+
+.meet-us-text p {
+  padding-top: 10px;
+}
+
+.form-contact-us1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 15px 0;
+  height: 30vh;
+}
+
+.list-contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 29vh;
+}
+
+.list {
+  display: flex;
+}
+
+.list img {
+  width: 15px;
+  height: 15px;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.form-contact-us1,
+.form-contact-us2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.form-contact-us2 input {
+  height: 15vh;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-about-us span {
+  font-weight: 700;
+}
+
+.container-abous-us h3,
+.section-gym h3,
+.section-meetus h3 {
+  padding: 20px 0px;
+}
+
+.container-about-us p {
+  padding: 10px 0px;
+}
+
+.box-our {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.box-our img {
+  width: 40%;
+  height: auto;
+}
+
+.box-our p {
+  width: 50%;
+}
+
+.box-family {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-family img {
+  width: 45%;
+  height: 100px;
+}
+
+.box-family p {
+  width: 50%;
+}
+
+.gym-list ul {
+  padding-top: 20px;
+  padding-left: 20px;
+  list-style: decimal;
+}
+
+.gym-list {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 20px;
+  margin: 20px 0px;
+  border: 1px solid #49a37b;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 601px) {
+  .container-main {
+    margin-left: 40px;
+  }
+
+  .section-megarocketgym h2 {
+    font-size: 2.5rem;
+  }
+
+  .megarocket img {
+    max-width: 595px;
+    max-height: 400px;
+  }
+
+  .section-megarocketgym p {
+    font-size: 1rem;
+  }
+
+  .meet-us h3 {
+    font-size: 1.87rem;
+  }
+
+  .meet-us h4,
+  .section-gym h3,
+  .section-contact-us h3,
+  .section-megarocketgym h3 {
+    font-size: 1.5rem;
+  }
+
+  .meet-us p {
+    font-size: 1rem;
+  }
+
+  .meet-us-media img {
+    max-width: 120px;
+  }
+
+  .section-contact-us li {
+    font-size: 1.25rem;
+  }
+
+  .section-about-us p,
+  .section-gym li,
+  .section-contact-us label {
+    font-size: 1.12rem;
+  }
+
+  .section-about-us img {
+    max-width: 260px;
+  }
+
+  .section-gym h4 {
+    font-size: 1.4rem;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  aside {
+    display: flex;
+    position: fixed;
+    height: 100vh;
+  }
+
+  .container-general {
+    padding-left: 240px;
+  }
+
+  .section-megarocketgym,
+  .section-meetus,
+  .section-about-us {
+    width: 90%;
+  }
+
+  .section-megarocketgym p,
+  .section-meetus p,
+  .section-about-us p {
+    font-size: 1.1rem;
+  }
+
+  .section-megarocketgym h2 {
+    align-self: baseline;
+    padding-left: 20px;
+  }
+
+  .megarocket-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .megarocket-container img {
+    width: 40%;
+    min-height: 350px;
+  }
+
+  .megarocket-text {
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+
+  .section-meetus h3,
+  .section-contact-us h3,
+  .container-abous-us h3 {
+    font-size: 2rem;
+  }
+
+  .container-meetus {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .meet-us {
+    width: 45%;
+  }
+
+  .form-contact-us1 {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form {
+    width: 45%;
+  }
+
+  .box-our img {
+    height: auto;
+  }
+
+  .box-family img {
+    min-height: 200px;
+  }
+
+  .container-gym {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+  }
+
+  .gym-list {
+    width: 40%;
+  }
+}
