@@ -459,13 +459,27 @@ signInButton.addEventListener('click', function (event) {
     validateEmail() &&
     validatePassword() &&
     validateSecondPassword();
+  var url = 'https://api-rest-server.vercel.app/signup';
+  var words1 = `name=${nameInput.value}&lastname=${lastNameInput.value}&dni=${dniInput.value}&dob=${dniInput.value}`;
+  var words2 = `&phone=${phoneInput.value}&adress=${addressInput.value}&city=${localityInput.value}`;
+  var words3 = `&zip=${postalCodeInput.value}&email=${emailInput.value}&password=${passwordInput}`;
+  var words4 = `&repassword=${passwordRepeatInput.value}`;
   if (typeof loginOk === 'boolean') {
-    alert(
-      `Successfull login \n Name: ${inputs[0].value} \n Lastname: ${inputs[1].value} \n DNI: ${inputs[2].value} 
-      \nBirdthdate: ${inputs[3].value} \n Phone: ${inputs[4].value} \n Address: ${inputs[5].value}
-      \n Locality: ${inputs[6].value} \n Postal Code: ${inputs[7].value} \n Email: ${inputs[8].value} 
-      \n Password: ${inputs[9].value}`
-    );
+    fetch(`${url}?${words1}${words2}${words3}${words4}`)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        if (data.sucess) {
+          alert('Sucessful Register!' + '\n' + data.msg);
+        } else {
+          alert(data.msg);
+        }
+        console.log(data);
+      })
+      .catch(function (error) {
+        throw new Error('Register error' + error);
+      });
   } else {
     return alert('Please correct the errors in the form ');
   }
