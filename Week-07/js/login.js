@@ -135,13 +135,10 @@ loginButton.addEventListener('click', function (event) {
       .then(function (data) {
         if (data.sucess) {
           alert('Sucessful Login' + '\n' + data.msg);
-        } else {
-          alert(data.msg);
         }
-        console.log(data);
       })
       .catch(function (error) {
-        throw new Error('Login error' + error);
+        throw new Error('Login error' + error.msg);
       });
   } else {
     return alert('Please correct the errors in the form ');
