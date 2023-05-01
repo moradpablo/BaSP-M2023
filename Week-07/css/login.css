@@ -27,7 +27,7 @@
 }
 .forms-input {
   display: flex;
-  width: 60vh;
+
   height: 6vh;
   flex-wrap: wrap;
   justify-content: space-evenly;

@@ -1,20 +1,25 @@
 var userName = document.querySelector('input[name="email"]');
 var password = document.querySelector('input[name="password"]');
 var loginButton = document.getElementById('login-button');
+var modal = document.getElementById('myModal');
+var modalText = document.getElementById('modal-text');
+var exit = document.getElementById('exit');
+var modalTittle = document.getElementById('modal-tittle');
+var modalTittle2 = document.getElementById('modal-tittle-2');
 
 function validateEmail() {
   var emailExpression = /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/;
   var valid = emailExpression.test(userName.value);
   if (!valid) {
-    alert('The email address is not valid.');
+    return 'The email address is not valid.';
   }
-  return valid;
+  return true;
 }
 
 function validatePassword() {
   var pass = password.value;
   if (typeof pass !== 'string' || pass.length < 8) {
-    return alert('Password should have at least 8 characters!');
+    return 'Password should have at least 8 characters!';
   }
   var hasNumber = false;
   var hasLetter = false;
@@ -27,7 +32,7 @@ function validatePassword() {
         (result >= 97 && result <= 122)
       )
     ) {
-      return alert('The password must contain only letters and numbers.');
+      return 'The password must contain only letters and numbers.';
     }
     if (result >= 48 && result <= 57) {
       hasNumber = true;
@@ -37,12 +42,12 @@ function validatePassword() {
     }
   }
   if (!hasNumber) {
-    return alert('The password must contain at least one number!');
+    return 'The password must contain at least one number!';
   }
   if (!hasLetter) {
-    return alert('The password must contain at least one letter!');
+    return 'The password must contain at least one letter!';
   }
-  return pass;
+  return true;
 }
 
 userName.addEventListener('blur', function blurEmail() {
@@ -121,11 +126,21 @@ password.addEventListener('focus', function focusPass() {
   }
 });
 
+exit.onclick = function () {
+  modal.style.display = 'none';
+};
+
+function showModal() {
+  modalText.textContent = `
+          Email: ${userName.value}\n
+          Password: ${'*'.repeat(password.value.length)}\n`;
+}
+
 loginButton.addEventListener('click', function (event) {
   var url = 'https://api-rest-server.vercel.app/login';
   event.preventDefault();
   var loginOk = validateEmail() && validatePassword();
-  if (loginOk) {
+  if (loginOk === 'boolean') {
     email = userName.value;
     pass = password.value;
     fetch(`${url}?email=${email}&password=${pass}`)
@@ -133,14 +148,17 @@ loginButton.addEventListener('click', function (event) {
         return response.json();
       })
       .then(function (data) {
-        if (data.sucess) {
-          alert('Sucessful Login' + '\n' + data.msg);
+        if (data.success) {
+          modal.style.display = 'block';
+          showModal();
         }
       })
       .catch(function (error) {
         throw new Error('Login error' + error.msg);
       });
   } else {
-    return alert('Please correct the errors in the form ');
+    modal.style.display = 'block';
+    modalTittle2.style.display = 'none';
+    modalTittle.textContent = 'Please correct the errors in the form! ';
   }
 });

@@ -15,14 +15,12 @@ window.onload = function () {
   var signInButton = document.getElementById('sign-up-button');
   var inputs = document.getElementsByTagName('input');
   var spans = document.getElementsByTagName('span');
+  var modal = document.getElementById('myModal');
+  var close = spans[12];
+  var modalText = document.getElementById('modal-text');
+  var modalTittle = document.getElementById('modal-tittle');
+  var modalTittle2 = document.getElementById('modal-tittle-2');
 
-  function failure(data) {
-    var error = '';
-    for (var i = 0; i < data.errors.length; i++) {
-      error = error + data.errors[i].param + ': ' + data.errors[i].msg + ' ';
-    }
-    alert(error);
-  }
   nameInput.value = localStorage.getItem('name');
   lastNameInput.value = localStorage.getItem('lastName');
   dniInput.value = localStorage.getItem('dni');
@@ -465,6 +463,35 @@ window.onload = function () {
     inputs[10].classList.remove('green-border');
   });
 
+  function failure(data) {
+    var error = '';
+    for (var i = 0; i < data.errors.length; i++) {
+      error = error + data.errors[i].param + ': ' + data.errors[i].msg + ' ';
+    }
+    modal.style.display = 'block';
+    modalTittle2.style.display = 'none';
+    modalTittle.textContent = error;
+  }
+
+  close.onclick = function () {
+    modal.style.display = 'none';
+  };
+
+  function showModal() {
+    modalTittle.textContent = 'Successfull Register';
+    modalText.textContent = `
+    Name: ${nameInput.value}\n
+    Lastname: ${lastNameInput.value}\n
+    DNI: ${dniInput.value}\n
+    Dob: ${birthdateInput.value}\n
+    Phone number: ${phoneInput.value}\n
+    Address: ${addressInput.value}\n
+    City: ${localityInput.value}\n
+    ZIP: ${postalCodeInput.value}\n
+    Email: ${emailInput.value}\n
+    Password: ${'*'.repeat(passwordInput.value.length)}`;
+  }
+
   signInButton.addEventListener('click', function (event) {
     event.preventDefault();
     var loginOk =
@@ -491,7 +518,8 @@ window.onload = function () {
         })
         .then(function (data) {
           if (data.success) {
-            alert('Sucessful Register!' + '\n' + data.msg);
+            modal.style.display = 'block';
+            showModal();
             localStorage.setItem('name', nameInput.value);
             localStorage.setItem('lastName', lastNameInput.value);
             localStorage.setItem('dni', dniInput.value);
@@ -508,8 +536,6 @@ window.onload = function () {
         .catch(function (error) {
           throw new Error('Register error' + error.msg);
         });
-    } else {
-      return alert('Please correct the errors in the form ');
     }
   });
 };
