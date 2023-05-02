@@ -25,7 +25,7 @@ Weeks Progression
 - Make sure that everything works correctly and save all the changes.
 - Example of my [work](https://www.figma.com/file/qVvOSwgA0WmUkM7e2ygRIN/UI-kit-RR?node-id=1215-949&t=I67pTJIDrJWzNNjp-0) :speech_balloon:
 - Try to help your coworkers with what they needed
-- Finally do the quiz and handed in the work
+- Finally do the quiz and handed in the work :trophy:
 
 ## Week 02 **HTML** :pushpin:
 
@@ -63,7 +63,7 @@ Weeks Progression
 - Make sure that everything works correctly and save all the changes.
 - Example of my [work](https://github.com/moradpablo/BaSP-M2023) :speech_balloon:
 - Try to help your coworkers with what they needed
-- Finally do the quiz and handed in the work
+- Finally do the quiz and handed in the work :trophy:
 
 ## Week 03 **CSS** :pushpin:
 
@@ -87,7 +87,7 @@ Weeks Progression
 - Example of my [Work]:(https://github.com/moradpablo/BaSP-M2023.git) :speech_balloon:
 - For last we edited our readme detailing what we did step by step
 - Always try to help your coworkers with what they needed
-- Finally do the quiz and handed in the work
+- Finally do the quiz and handed in the work :trophy:
 
 ## Week 04 **CSS**(Responsive) :pushpin:
 
@@ -112,7 +112,7 @@ Weeks Progression
 - Example of my [Work]:(https://moradpablo.github.io/BaSP-M2023/Week-04/) :speech_balloon:
 - For last we edited our readme detailing what we did step by step like always
 - Try to help your coworkers with what they needed
-- Finally do the quiz and handed in the work
+- Finally do the quiz and handed in the work :trophy:
 
 ## Week 05 **Javascript** :pushpin:
 
@@ -137,7 +137,7 @@ Weeks Progression
 - Example of my [Work]:(https://moradpablo.github.io/BaSP-M2023/Week-05/) :speech_balloon:
 - For last we edited our readme detailing what we did step by step like always
 - Try to help your coworkers with what they needed
-- Finally do the quiz and handed in the work
+- Finally do the quiz and handed in the work :trophy:
 
 ## Week 06 **Javascript DOM** :pushpin:
 
@@ -161,7 +161,26 @@ Weeks Progression
 - Example of my [Work](Sign-up):(https://moradpablo.github.io/BaSP-M2023/Week-06/views/sign-up.html) :speech_balloon:
 - For last we edited our readme detailing what we did step by step like always
 - Try to help your coworkers with what they needed
-- Finally do the quiz and handed in the work
+- Finally do the quiz and handed in the work :trophy:
+
+## Week 07 **Javascript Async & Storage** :pushpin:
+
+- Continue working on the project from last week
+- We have to learn what is [Asynchronism](https://www.youtube.com/watch?v=nxG1v2UjTdQ&ab_channel=RadiumRocketLearning) and [Storage](https://www.youtube.com/watch?v=NU4c9kbouMQ&ab_channel=RadiumRocketLearning) in JS.
+
+> Note: [Callbacks](https://www.youtube.com/watch?v=JL-us3J8B_o&ab_channel=RadiumRocketLearning) :cinema:
+
+> Note: [Promises](https://www.youtube.com/watch?v=aYWObkKz-Og&ab_channel=RadiumRocketLearning) :cinema:
+
+- Once we learned the above information, we can start our weeks project.
+- In this case, it consisted of expanding the forms of week 06 so that when the confirmation buttons are pressed, the data loaded in them is sent to a web server.
+- We have to create our Week-07 folder like every week and copy all the files from the last week
+- Started writing all the logic for the forms in `"login.js and sign-up.js"` (always with VS)
+- Remember to commit and push it to github on every progress
+- Example of my [Work](https://moradpablo.github.io/BaSP-M2023/Week-07/views/) :speech_balloon:
+- For last we edited our readme detailing what we did step by step like always
+- Try to help your coworkers with what they needed
+- Finally do the quiz and handed in the work :trophy:
 
 ## Author
 
